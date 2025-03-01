@@ -326,6 +326,10 @@
   
   /* Responsive adjustments for screens smaller than 768px */
   @media screen and (max-width: 768px) {
+    #header {
+        background-position: top right; /* Adjust position for mobile */
+      }
+    
     .container {
       padding: 10px 5%;
     }
