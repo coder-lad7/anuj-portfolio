@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anuj Das - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/72c62180c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="logo1.png" class="logo">
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>Coder!!</p>
+        <h1>Hi, I'm <span>Anuj Das</span></h1>
+      </div>
+    </div>
+  </div>
+  <!-- ------------------About----------------------- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="about.png" alt="About Anuj Das">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me</h1>
+          <p>Hi, I'm Anuj Das, a BTech student at NIT Silchar with a keen interest in technology and design.
+            I enjoy exploring various aspects of computer science, including software development, IoT, and graphic
+            design. Currently, I'm working on an IoT project under a professor while refining my creative and
+            technical skills. I'm always eager to learn and innovate, aiming to create solutions that blend
+            functionality with aesthetics.</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Web Development</span><br>Front-end <br>Back-end</li>
+              <li><span>Competitive Programming</span><br>Codeforces</li>
+              <li><span>Data Structures & Algorithms</span><br>C++<br>Java</li>
+              <li><span>Object Oriented Programming</span><br>C++<br>Java</li>
+              <li><span>Design</span><br>UI/UX<br>Graphic Design</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Aug, 2024 - Present</span><br>Graphic Designer at Computer Science Society</li>
+              <li><span>July, 2024 - Present</span><br>Think India Volunteer</li>
+              <li><span>Mar, 2024</span><br>Graphic Designer for Oikyotaan'24</li>
+              <li><span>April, 2024</span><br>Hospitality Member for Oikyotaan'24</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>Aug, 2023 - Jun, 2027</span><br>B.Tech/CSE at NIT Silchar</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ------------------My Services----------------------- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Development</h2>
+          <p>Crafting responsive and dynamic websites using modern front-end and back-end technologies. I build scalable, user-friendly digital experiences tailored to your needs.</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-microchip"></i>
+          <h2>IoT Solutions</h2>
+          <p>Designing innovative IoT projects that connect devices and streamline processes. Merging technology with creativity to bring smart solutions to life.</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-paint-brush"></i>
+          <h2>Graphic & UI/UX Design</h2>
+          <p>Creating visually compelling designs and intuitive user interfaces. I blend aesthetics with functionality to enhance user engagement and brand identity.</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ----------------------------Contact--------------------------------- -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-regular fa-paper-plane"></i> anujdas.tsk@gmail.com</p>
+          <p><i class="fa-solid fa-phone-volume"></i> +91 8453443993</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/share/18PhzQuVtv/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/anujxdas?igsh=NDB1dWw3bWo3bmx4"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/anujdas0000?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+              <i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="" class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Message"></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
