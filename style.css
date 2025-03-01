@@ -313,4 +313,48 @@
   #contact form button:hover {
     background: #e60045;
   }
+  /* Base styles for desktop */
+.container {
+    padding: 10px 10%;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  /* Responsive adjustments for screens smaller than 768px */
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 10px 5%;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  
+    .header-text {
+      margin-top: 15%;
+      text-align: center;
+    }
+  
+    .header-text h1 {
+      font-size: 40px;
+    }
+  
+    .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about-col-1, .about-col-2, .contact-left, .contact-right {
+      flex-basis: 100%;
+    }
+  }
   
